@@ -77,6 +77,20 @@ User
    - Provided guidance for adding new features (difficulty, format, grouping, etc.) to the generation logic.
    - Explained how to update prompt templates and endpoints for advanced customization.
 
+### 1a. (Alternative) Install EduChain from Local Path
+If you have the EduChain source in this project (as a folder), you can install it directly using:
+```
+pip install educhain @ file:///ABSOLUTE_PATH_TO_EDUCHAIN
+```
+Replace `ABSOLUTE_PATH_TO_EDUCHAIN` with the full path to your `educhain` directory.
+
+Or, for editable development mode:
+```
+pip install -e ./educhain
+```
+
+You can also uncomment the relevant line in `requirements.txt` for local installs.
+
 ---
 
 ## Features

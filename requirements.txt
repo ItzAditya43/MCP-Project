@@ -1,0 +1,31 @@
+# To use the local EduChain source, replace <ABSOLUTE_PATH_TO_EDUCHAIN> with your actual path:
+# educhain @ file:///ABSOLUTE_PATH_TO_EDUCHAIN
+# Or, for editable install during development:
+# -e ./educhain
+# Core dependencies for EduChain MCP Server
+flask
+python-dotenv
+# EduChain and its dependencies
+langchain
+langchain-community
+langchain-openai
+openai
+reportlab
+PyPDF2
+beautifulsoup4
+youtube-transcript-api
+pydantic
+requests
+chromadb
+protobuf<5
+pillow
+dataframe-image
+langchain-google-genai
+pandas
+ipython
+matplotlib
+numpy
+# Optional: For development
+# pytest
+# black
+# flake8 
