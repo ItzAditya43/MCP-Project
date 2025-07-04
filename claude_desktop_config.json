@@ -1,0 +1,22 @@
+{
+  "tools": [
+    {
+      "name": "GenerateMCQs",
+      "endpoint": "http://localhost:5001/generate-mcqs",
+      "method": "POST",
+      "description": "Generates multiple-choice questions for a given topic."
+    },
+    {
+      "name": "LessonPlan",
+      "endpoint": "http://localhost:5001/lesson-plan",
+      "method": "POST",
+      "description": "Returns a lesson plan for a subject."
+    },
+    {
+      "name": "Flashcards",
+      "endpoint": "http://localhost:5001/flashcards",
+      "method": "POST",
+      "description": "Returns flashcards for a given topic."
+    }
+  ]
+} 

@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.env/
+.env
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Log files
+*.log
+
+# Output and cache
+*.egg-info/
+dist/
+build/
+
+# Ignore sample secrets
+*.secret
+
+# Ignore compiled files
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.bin
+*.class
+
+# Ignore test outputs
+*.out
+*.tmp
+
+# Ignore backup files
+*~
+
+# Ignore system files
+Desktop.ini
+
+# Ignore any user-specific config
+*.swp
+
+# Ignore sample_output.json if not required for submission
+sample_output.json 
